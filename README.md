@@ -21,14 +21,14 @@
     - 선택한 게시글을 삭제하고 Client 로 성공했다는 표시 반환하기
 
 # 환경
-Java 11
-Spring Boot 2.6.7
-IntelliJ Ultimate 2022.2.3
-Spring Web
-Lombok
-H2
-JPA
-MySQL
+- Java 11
+- Spring Boot 2.6.7
+- IntelliJ Ultimate 2022.2.3
+- Spring Web
+- Lombok
+- H2
+- JPA
+- MySQL
 
 # API 설계
 |화면|기능|Method|URL|Return|
