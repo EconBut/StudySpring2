@@ -1,6 +1,6 @@
 # StudySpring2
 
-#요구사항
+# 요구사항
 1. 아래의 요구사항을 기반으로 Use Case 그려보기
     - 손으로 그려도 됩니다.
     - cf. [https://narup.tistory.com/70](https://narup.tistory.com/70)
@@ -20,10 +20,21 @@
     - 삭제를 요청할 때 비밀번호를 같이 보내서 서버에서 비밀번호 일치 여부를 확인 한 후
     - 선택한 게시글을 삭제하고 Client 로 성공했다는 표시 반환하기
 
+# 환경
+Java 11
+Spring Boot 2.6.7
+IntelliJ Ultimate 2022.2.3
+Spring Web
+Lombok
+H2
+JPA
+MySQL
+
 # API 설계
-화면	기능	Method	URL	Return
-메인화면	전체 게시글 목록 조회	GET	posts	Lsit<Post>
-메인화면	게시글 조회	GET	posts/{id}	Post
-메인화면	게시글 작성	POST	posts	Post
-메인화면	게시글 수정	PUT	posts/{id}	Long
-메인화면	게시글 삭제	DELETE	posts{id}	Long
+|화면|기능|Method|URL|Return|
+|---|---|---|---|---|
+|메인화면|전체게시글 목록조회|GET|posts|List<Post>|
+|메인화면|게시글 조회|GET|posts/{id}|Post|
+|메인화면|게시글 작성|POST|posts|Post|
+|메인화면|게시글 수정|PUT|posts/{id}|Long|
+|메인화면|게시글 삭제|DELETE|posts{id}|Long|
